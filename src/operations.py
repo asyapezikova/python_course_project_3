@@ -30,4 +30,4 @@ class Operation:
         '''
         return (f"{self.date} {self.description}\n"
                 f"{self.where_from} -> {self.to}\n"
-                f"{self.amount} {self.currency}\n")
+                f"{self.amount} {self.currency}\n\n")
