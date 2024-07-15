@@ -1,7 +1,7 @@
 import src.operations
 from src.utils import *
 
-test_file_json = "D:/python/python_course_project_3_Pezikova/files_json/test_operation.json"
+test_file_json = "../files_json/test_operation.json"
 
 def tests_files_json():
     assert type(uploading_a_file(test_file_json)) is list
